@@ -1,4 +1,4 @@
-# Parametric Spiral Horn Array - Work in progress
+# Parametric Spiral Wall Art - Work in progress
 
 I have been working on parametric wall art inspired by inspired by [this](https://i.imgur.com/Kc8Cd5w.png) sculpture made by [Herschel Shapiro](https://www.tiktok.com/@herschelshapiro/video/7225225819789036805).
 
