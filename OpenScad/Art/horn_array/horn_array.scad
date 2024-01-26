@@ -1,7 +1,7 @@
 // Number of parts
-num_parts = 48;
+num_parts = 16;
 // Number of columns
-max_columns = 6;
+max_columns = 4;
 // Horn Height
 h_height = 100;
 // Horn Radius 
@@ -29,7 +29,10 @@ for(i=[0:num_parts-1]) {
         column = i % max_columns; 
         row = floor(i / max_columns);
         //echo("column=",column," row=",row);
-        twist = 5 * i;
+        //twist = 5 * i; // Twist based of which part it is, can get a bit crazy with a large number of parts, so exploring other ideas as seen below
+        twist = rands(25,235, 1)[0]; // Random number twist value, giving better results
+        //twist = 235; // Test value to see how a twist looks
+        echo(twist);
         colP = (row % 2 != 0) ? (radius/2)*1.725:0;
         translate ([column*X + colP, row*Y, 0]) {
             rvect=rands(0,1,3);
