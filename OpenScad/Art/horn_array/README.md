@@ -7,6 +7,7 @@ Ive been trying to recreate it in OpenSCAD, made some good progress so far, obvi
 ### To do
  - Adjust horn twist parameter for better results
  - Probably add mating interfaces on each horn as seen on Herschel's Horns
+ - Maybe improve how the horns are ordered, not sure if my way of doing it is the best.
 
 Any feedback is welcome, best place is probably the [Printables Page](https://www.printables.com/model/738765/).
 
