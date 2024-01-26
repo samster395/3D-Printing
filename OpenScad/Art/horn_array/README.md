@@ -4,12 +4,17 @@ I have been working on parametric wall art inspired by inspired by [this](https:
 
 Ive been trying to recreate it in OpenSCAD, made some good progress so far, obviosuly I need to tweak the values that define how they point but im happy with my progress so far.
 
+
+Progress so far:
+
+![Progress so far](https://raw.githubusercontent.com/samster395/3D-Printing/main/OpenScad/Art/horn_array/example.png)
+
 ### To do
  - Adjust horn twist parameter for better results
  - Probably add mating interfaces on each horn as seen on Herschel's Horns
  - Maybe improve how the horns are ordered, not sure if my way of doing it is the best.
 
-Example of Herchel's Horns
+Example of Herchel's Horns:
 
 ![Example of Herchel's Horns](https://raw.githubusercontent.com/samster395/3D-Printing/main/OpenScad/Art/horn_array/Herschel_Shapiro_horn_example.png)
 
