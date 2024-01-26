@@ -2,7 +2,7 @@
 
 I have been working on parametric wall art inspired by inspired by [this](https://i.imgur.com/Kc8Cd5w.png) sculpture made by [Herschel Shapiro](https://www.tiktok.com/@herschelshapiro/video/7225225819789036805).
 
-Ive been trying to recreate it in OpenSCAD, made some good progress so far, obviosuly I need to tweak the values that define how they point but im happy with my progress so far.
+Ive been trying to recreate it in OpenSCAD, made some good progress so far, obviosuly I need to tweak the values that define how they twist/point but im happy with my progress so far, the idea isnt to completely copy Herschel's print, its just inspired by it.
 
 
 Progress so far:
