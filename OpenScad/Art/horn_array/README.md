@@ -9,6 +9,10 @@ Ive been trying to recreate it in OpenSCAD, made some good progress so far, obvi
  - Probably add mating interfaces on each horn as seen on Herschel's Horns
  - Maybe improve how the horns are ordered, not sure if my way of doing it is the best.
 
+Example of Herchel's Horns
+
+![Example of Herchel's Horns](https://raw.githubusercontent.com/samster395/3D-Printing/main/OpenScad/Art/horn_array/Herschel_Shapiro_horn_example.png)
+
 Any feedback is welcome, best place is probably the [Printables Page](https://www.printables.com/model/738765/).
 
 ### Credits
