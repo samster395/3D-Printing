@@ -11,7 +11,7 @@ Progress so far:
 
 ### To do
  - Adjust horn twist parameter for better results, ideally it should base of a changing value rather than being harcoded, right now it is based off which number in the array the horn is, this is fine until you have upwards of 100 parts, where they starting being very twisty. I have experimented with using a random number between 25-235 degrees with promising results, I still feel like it could be further refined but this is a start.
- - Probably add mating interfaces on each horn as seen on Herschel's Horns
+ - Probably add mating interfaces on each horn as seen on Herschel's Horns - Update 26/1/2023 I have added an experimental mating interface file, not perfect but a start.
  - Maybe improve how the horns are ordered, not sure if my way of doing it is the best.
 
 Example of Herchel's Horns:
