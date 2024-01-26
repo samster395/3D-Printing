@@ -10,7 +10,7 @@ Progress so far:
 ![Progress so far](https://raw.githubusercontent.com/samster395/3D-Printing/main/OpenScad/Art/horn_array/example.png)
 
 ### To do
- - Adjust horn twist parameter for better results, ideally it should base of a changing value rather than being harcoded, right now it is based off which number in the array the horn is.
+ - Adjust horn twist parameter for better results, ideally it should base of a changing value rather than being harcoded, right now it is based off which number in the array the horn is, this is fine until you have upwards of 100 parts, where they starting being very twisty.
  - Probably add mating interfaces on each horn as seen on Herschel's Horns
  - Maybe improve how the horns are ordered, not sure if my way of doing it is the best.
 
