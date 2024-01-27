@@ -24,6 +24,6 @@ ECHO.
 PAUSE 
 EXIT /B %ERRORLEVEL%
 :ProcessPart
-"C:\Program Files\OpenSCAD\openscad.exe" -o STLs\%~3.stl -D part=%~1; %~2 
+"C:\Program Files\OpenSCAD\openscad.exe" -o STLs\%~3.stl -D part=%~1; %~2 -D resolution=1000
 REM "C:\Program Files\Assimp\bin\x64\assimp.exe" export Exported_STLs\%~3.stl OBJ\%~3.obj
 EXIT /B 0

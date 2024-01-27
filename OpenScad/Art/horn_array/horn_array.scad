@@ -1,7 +1,7 @@
 // Number of parts
-num_parts = 16;
+num_parts = 48;
 // Number of columns
-max_columns = 4;
+max_columns = 6;
 // Horn Height
 h_height = 100;
 // Horn Radius 
@@ -11,6 +11,7 @@ faces = 6;
 /* [Advanced] */
 // Resolution - Bigger the number, the longer it takes to render
 resolution = 100;
+$fn = $preview ? 0 : resolution;
 // Part to show - Use this to only show that specific part, useful for exporting, see batch export script, leave as 0 to show all
 part = 0;
 
@@ -32,17 +33,17 @@ for(i=[0:num_parts-1]) {
         //twist = 5 * i; // Twist based of which part it is, can get a bit crazy with a large number of parts, so exploring other ideas as seen below
         twist = rands(25,235, 1)[0]; // Random number twist value, giving better results
         //twist = 235; // Test value to see how a twist looks
-        echo(twist);
+        echo("Part: ", i, " Twist: ", twist);
         colP = (row % 2 != 0) ? (radius/2)*1.725:0;
         translate ([column*X + colP, row*Y, 0]) {
             rvect=rands(0,1,3);
             color([rvect[0],rvect[1],rvect[2]])// Random Color
-            horn(h_height, radius, twist, faces, resolution);
+            horn(h_height, radius, twist, faces);
         }
     }
 }
 
-module horn(height = 100, radius = 10, twist = 720, faces = 6, resolution) {   
+module horn(height = 100, radius = 10, twist = 720, faces = 6) {   
     height = height - 10;
     radius = radius - 2;
     rotate([0,0,30]) // Base
@@ -52,7 +53,7 @@ module horn(height = 100, radius = 10, twist = 720, faces = 6, resolution) {
     //radius2 = radius/4;
 	radius2 = radius;
 	translate([-radius2,0]) // De-translate.
-	linear_extrude(height = height, twist = twist, scale=0, $fn = resolution) // Horn
+	linear_extrude(height = height, twist = twist, scale=0) // Horn
         translate([radius2,0])
             rotate([0,0,30])
                 circle(r=radius2,$fn=faces);
