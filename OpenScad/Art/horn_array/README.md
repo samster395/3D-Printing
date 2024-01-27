@@ -11,7 +11,7 @@ Progress so far:
 
 ### To do
  - Adjust horn twist parameter for better results, ideally it should base of a changing value rather than being harcoded, right now it is based off which number in the array the horn is, this is fine until you have upwards of 100 parts, where they starting being very twisty. I have experimented with using a random number between 25-235 degrees with promising results, I still feel like it could be further refined but this is a start.
- - Probably add mating interfaces on each horn as seen on Herschel's Horns - Update 26/1/2023 I have added an experimental mating interface file, not perfect but a start. [Photo](https://media.printables.com/media/prints/738765/images/5777008_67fbdf4a-e515-4c67-8823-7a31723c9ed3_e97d5f4d-4f5d-43a0-8c39-a3cb0a688530/thumbs/inside/1280x960/png/openscad_2024-01-26_23-46-07.webp)
+ - Probably add mating interfaces on each horn as seen on Herschel's Horns - Update 26/1/2023 I have added an experimental mating interface file, not perfect but a start. I'm not sure if mating interfaces are really necessary though as the hex meshes together pretty well, also not sure how I would make it so they don't show on the outer pieces. [Photo](https://media.printables.com/media/prints/738765/images/5777008_67fbdf4a-e515-4c67-8823-7a31723c9ed3_e97d5f4d-4f5d-43a0-8c39-a3cb0a688530/thumbs/inside/1280x960/png/openscad_2024-01-26_23-46-07.webp)
  - Maybe improve how the horns are ordered, not sure if my way of doing it is the best.
 
 Example of Herchel's Horns:
