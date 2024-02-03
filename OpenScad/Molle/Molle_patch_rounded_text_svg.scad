@@ -22,19 +22,21 @@ opening2Position = 0.8; // [0:0.01:1]
 
 // Clip depth in mm
 depth = 4;
-
+// Enable Text
 text = true;
 textLine1 = "BIFFY";
 textLine2 = "CLYRO";
 textLine3 = "";
-
+// Defines how far text is from left
 textMargin = 18; // Left side text margin
-
+// Font Size
 fontSize = 5;
-
+// Enable SVG
 svg = false;
 svg_file = "sign-of-the-horns.svg";
+// SVG Scale
 svgScale = 0.1;// [0:0.01:1]
+// SVG Location
 svgLocation = [7, 6, 0];
 // [17.5, 0, 0] middle
 

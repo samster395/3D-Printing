@@ -22,22 +22,19 @@ opening2Position = 0.8; // [0:0.01:1]
 
 // Clip depth in mm
 depth = 4;
-
+// Enable Text
 text = false;
 textLine1 = "BIFFY";
 textLine2 = "";
 textLine3 = "CLYRO";
-
-textMargin = 18; // Left side text margin
-
+// Left side text margin
+textMargin = 18;
+// Font Size
 fontSize = 5;
-
+// Enable SVG
 svg = true;
-//svg_file = "LH.svg";
 // File name, scale, X, Y, Z
-svg_files = [["LH.svg", 0.18, 10, 2, 0], ["MK.svg", 0.22, 35, 3, 0]];
-//svgScale = 0.18;// [0:0.01:1]
-//svgLocation = [20, 1, 0];
+svg_files = [["skiing.svg", 2.5, 8, 4, 0], ["Plane.svg", 2.5, 31, 4, 0]];
 // [17.5, 0, 0] middle
 
 /* [Print settings] */
